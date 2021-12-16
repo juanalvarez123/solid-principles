@@ -7,7 +7,6 @@ public class MazdaVehicle extends Vehicle {
         // Another adjustments to do a straight movement
         getDoors();
         getWheels();
-        super.makeStraightMovement();
         //...
 
         return "Mazda's straight movement";

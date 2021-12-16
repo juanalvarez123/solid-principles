@@ -9,8 +9,4 @@ public class NumberUtils {
     public static int subtract(int x, int y) {
         return x - y;
     }
-
-    public static String concat(String x, String y) {
-        return x.concat(y);
-    }
 }

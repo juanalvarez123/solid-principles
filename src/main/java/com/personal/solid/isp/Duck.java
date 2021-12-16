@@ -1,6 +1,6 @@
 package com.personal.solid.isp;
 
-public class Duck implements Animal {
+public class Duck implements Animal, Fly, Swim, Walk {
 
     @Override
     public void walk() {

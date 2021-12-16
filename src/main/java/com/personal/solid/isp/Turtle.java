@@ -1,6 +1,6 @@
 package com.personal.solid.isp;
 
-public class Turtle implements Animal {
+public class Turtle implements Animal, Swim , Walk{
 
     @Override
     public void walk() {
@@ -12,8 +12,4 @@ public class Turtle implements Animal {
         System.out.println("Ok");
     }
 
-    @Override
-    public void fly() {
-        throw new UnsupportedOperationException("Can't fly");
-    }
 }

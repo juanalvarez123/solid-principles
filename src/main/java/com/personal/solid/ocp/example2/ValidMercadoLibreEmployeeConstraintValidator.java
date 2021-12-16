@@ -13,7 +13,6 @@ public class ValidMercadoLibreEmployeeConstraintValidator implements ConstraintV
     @Override
     public boolean isValid(MercadoLibreEmployee value, ConstraintValidatorContext context) {
         // Apply the correct validations
-        // ...
-        return true;
+        return value.age >= 20 && value.age <= 40;
     }
 }
